@@ -1,16 +1,16 @@
 {
-  "pageTitle": "VDO.Ninja OBS Control Dock",
-  "mainHeading": "VDO.Ninja OBS Control",
+  "pageTitle": "VDO.Ninja OBS 控制塢",
+  "mainHeading": "VDO.Ninja OBS 控制",
   "languageSwitcher": {
-    "label": "Language:"
+    "label": "語言："
   },
   "collapsible": {
-    "clickToExpand": "Click to expand",
-    "clickToCollapse": "Click to collapse"
+    "clickToExpand": "點一下展開",
+    "clickToCollapse": "點一下縮合"
   },
   "customCss": {
-    "title": "Custom CSS",
-    "label": "Enter your custom CSS here:",
+    "title": "自訂 CSS",
+    "label": "在這裡輸入您的自訂 CSS：",
     "description": "This CSS will be applied to the sources."
   },
   "obsConnection": {
@@ -75,31 +75,31 @@
     "ruleDescription": "Define how incoming streams are routed to OBS scenes."
   },
   "obsTargetSettings": {
-    "title": "OBS Target Settings",
+    "title": "OBS 目標設定",
     "sourceCreationScenesLabel": "Scenes for Source Creation:",
     "sourceCreationScenesDesc": "Select one or more scenes. The first will be the primary, others for copying.",
     "loadingScenes": "Loading scenes...",
     "noScenesFound": "No scenes found",
     "refetchScenesButton": "Re-Fetch Scenes",
     "screenShareSettings": {
-        "title": "Screen Sharing Settings:",
-        "widthLabel": "Width:",
-        "heightLabel": "Height:",
+        "title": "螢幕分享設定：",
+        "widthLabel": "寬度：",
+        "heightLabel": "高度：",
         "resolutionNote": "This resolution will be used for screen sharing sources in scenes with a 'Reaction' layout."
     },
     "autoAddSourcesLabel": "Auto-add new streams as sources",
     "autoRemoveSourcesLabel": "Auto-remove sources on disconnect",
     "newSourceSizing": {
-        "label": "Default Source Sizing:",
-        "defaultSizeOption": "Default (1920x1080 at 0,0)",
-        "bestFitOption": "Best Fit (Preserve Aspect)",
+        "label": "預設來源大小設定：",
+        "defaultSizeOption": "預設 (1920x1080 在 0,0)",
+        "bestFitOption": "最佳縮放 (保留比例)",
         "stretchToFillOption": "Stretch to Fill Screen",
         "overrideNote": "Specific layouts defined in the \"Layouts\" section will override these for those scenes."
     },
     "codec": {
         "label": "Codec:",
-        "noneOption": "none",
-        "learnMoreTitle": "Learn more about codec options"
+        "noneOption": "無",
+        "learnMoreTitle": "得知更多 codec 選項"
     }
   },
   "sceneLayouts": {
